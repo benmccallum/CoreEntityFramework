@@ -1,7 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEntityFramework", "CoreEntityFramework\CoreEntityFramework.csproj", "{E56F1142-0E15-4AAB-B6F8-4934F24AF189}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".global", ".global", "{17A58DD2-630B-4C48-9C43-399394248936}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CoreEntityFramework\build-nupkg.bat = CoreEntityFramework\build-nupkg.bat
+		CoreEntityFramework\CoreEntityFramework.nuspec = CoreEntityFramework\CoreEntityFramework.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
